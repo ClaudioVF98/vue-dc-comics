@@ -1,5 +1,6 @@
 <template>
     <div>
+        
         <div id="content">
             <div class="comix">
                 <ComicCard v-for="(comic, i) in comics" :key="i" :info="comic" />
